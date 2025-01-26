@@ -11,7 +11,7 @@ const protectedRoute = createRouteMatcher([
   '/aiboard',
   '/recordings',
   '/ai-doc-helpher',
-  "meetings, ask a question , board helper , contacts , chating"
+  '/personal-room',
 ])
 
 export default clerkMiddleware(async (auth, req) => {
