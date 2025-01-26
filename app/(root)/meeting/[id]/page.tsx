@@ -25,7 +25,6 @@ const MeetingPage = () => {
     </p>
   );
 
-  const notAllowed = call.type === 'invited' && (!user || !call.state.members.find((m) => m.user.id === user.id));
 
 
   return (

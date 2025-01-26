@@ -66,7 +66,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
   return (
     <div className="grid grid-cols-1 gap-5 xl:grid-cols-2">
       {calls && calls.length > 0 ? (
-        calls.map((meeting: Call | CallRecording, index) => (
+        calls.map((meeting: Call | CallRecording) => (
           <MeetingCard
             key={(meeting as Call).id}
             icon={
