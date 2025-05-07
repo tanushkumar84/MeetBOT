@@ -9,7 +9,7 @@ const ShowcasePage = () => {
 
   const handlePlay = () => {
     if (videoRef.current) {
-      videoRef.current.play();
+      videoRef.current.play(); //fix play video
       setIsPlaying(true);
     }
   };
