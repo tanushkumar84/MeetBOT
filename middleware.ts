@@ -12,6 +12,7 @@ const protectedRoute = createRouteMatcher([
   '/recordings',
   '/ai-doc-helpher',
   '/personal-room',
+  '/Rag',
 ])
 
 export default clerkMiddleware(async (auth, req) => {
