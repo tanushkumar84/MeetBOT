@@ -4,7 +4,7 @@ import React, { useRef, useState } from "react";
 import { PlayCircle } from "lucide-react";
 
 const ShowcasePage = () => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {
