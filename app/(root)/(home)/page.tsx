@@ -12,7 +12,7 @@ const Home = () => {
   const date = new Intl.DateTimeFormat('en-US', {
     dateStyle: 'full',
     timeZone: 'Asia/Kolkata'
-  }).format(now);
+  }).format(now); // fix time format
 
   return (
     <section className="flex size-full flex-col gap-5 text-white">
